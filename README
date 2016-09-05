@@ -1,0 +1,2 @@
+A C# implementation of a Dictionary (HashTable) which also allows for randomized access to its elements.
+Data is stored internally in both a Dictionary and LinkedList.  The internal Dictionary is used to support constant time gets and puts.  Put operations randomly append to the start or end of the LinkedList.  To get a random element, we return the first element in the LinkedList and move it to the end of the LinkedList.
